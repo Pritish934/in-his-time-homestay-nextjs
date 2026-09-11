@@ -33,9 +33,6 @@ export default function Waterfall() {
               to tell guests the exact distance and viewpoint information once
               you confirm it.
             </p>
-            <p className="mt-5 border-l border-[#b79a62] pl-4 text-sm text-white/80">
-              Highlight: the homestay is opposite Seven Sisters Waterfall.
-            </p>
           </Reveal>
         </div>
       </div>
