@@ -6,7 +6,6 @@ const images = [
   ["The surroundings", "/images/balcony.jpeg"],
   ["A family room", "/images/family-room.jpeg"],
   ["Side View", "/images/sidescene.jpeg"],
-  ["Bonefire", "/images/bonefire.jpeg"],
 ];
 
 export default function Gallery() {

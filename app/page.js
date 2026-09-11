@@ -10,8 +10,10 @@ import FAQ from "@/components/FAQ";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Rooms from "@/components/Rooms";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://inhistime.example.com";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://inhistime.example.com";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -26,12 +28,12 @@ const jsonLd = {
     addressLocality: "Sohra",
     addressRegion: "Meghalaya",
     postalCode: "793108",
-    addressCountry: "IN"
+    addressCountry: "IN",
   },
   areaServed: {
     "@type": "City",
-    name: "Sohra"
-  }
+    name: "Sohra",
+  },
 };
 
 export default function Home() {
@@ -49,6 +51,7 @@ export default function Home() {
         <Waterfall />
         <Experience />
         <Gallery />
+        <Rooms />
         <Location />
         <FAQ />
         <Booking />
