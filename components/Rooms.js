@@ -17,7 +17,7 @@ const rooms = [
     name: "Family Room",
     label: "Comfort for families & groups",
     capacity: "Up to 4 guests",
-    image: "/images/family-room.jpeg",
+    image: "/images/familyroom.jpeg",
     description:
       "A spacious, comfortable option for families and small groups looking for a convenient base while exploring Sohra and its waterfalls.",
     highlights: ["Attached bathroom"],

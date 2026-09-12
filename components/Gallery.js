@@ -4,7 +4,7 @@ const images = [
   ["Bedroom", "/images/delux-room.jpeg"],
   ["Morning light", "/images/mountainview.jpeg"],
   ["The surroundings", "/images/balcony.jpeg"],
-  ["A family room", "/images/family-room.jpeg"],
+  ["Cozy rooms", "/images/family-room.jpeg"],
   ["Side View", "/images/sidescene.jpeg"],
 ];
 
