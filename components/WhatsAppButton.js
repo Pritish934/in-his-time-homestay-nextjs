@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 export default function WhatsAppButton() {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "91XXXXXXXXXX";
+  const number = process.env.NEXT_WHATSAPP_NUMBER || "91XXXXXXXXXX";
   const message = encodeURIComponent(
-    "Hi In His Time! 👋 I'm interested in booking a stay at your homestay in Sohra. Could you please share availability and the direct booking price?"
+    "Hi In His Time! 👋 I'm interested in booking a stay at your homestay in Sohra. Could you please share availability and the direct booking price?",
   );
   const href = `https://wa.me/${number.replace(/\D/g, "")}?text=${message}`;
 
@@ -19,7 +19,9 @@ export default function WhatsAppButton() {
       whileHover={{ y: -3, scale: 1.02 }}
       whileTap={{ scale: 0.97 }}
     >
-      <span className="grid h-8 w-8 place-items-center rounded-full bg-[#b79a62] text-[#17221b]">↗</span>
+      <span className="grid h-8 w-8 place-items-center rounded-full bg-[#b79a62] text-[#17221b]">
+        ↗
+      </span>
       <span className="hidden sm:inline">Book on WhatsApp</span>
     </motion.a>
   );
