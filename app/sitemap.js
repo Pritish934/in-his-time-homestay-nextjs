@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = process.env.NEXT_SITE_URL || "https://inhistime.example.com";
+  const base = process.env.NEXT_SITE_URL;
   return [
     {
       url: base,
