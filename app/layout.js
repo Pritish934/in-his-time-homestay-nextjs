@@ -1,6 +1,6 @@
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+const siteUrl = "https://in-his-time-homestay.vercel.app";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),

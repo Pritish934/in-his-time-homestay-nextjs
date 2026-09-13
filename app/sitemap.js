@@ -1,8 +1,7 @@
 export default function sitemap() {
-  const base = process.env.NEXT_SITE_URL;
   return [
     {
-      url: base,
+      url: "https://in-his-time-homestay.vercel.app/",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
