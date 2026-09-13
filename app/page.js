@@ -12,8 +12,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Rooms from "@/components/Rooms";
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://inhistime.example.com";
+const siteUrl = process.env.NEXT_SITE_URL || "https://inhistime.example.com";
 
 const jsonLd = {
   "@context": "https://schema.org",
