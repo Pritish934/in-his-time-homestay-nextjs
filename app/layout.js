@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const siteUrl = "https://in-his-time-homestay.vercel.app";
 
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="noise" aria-hidden="true" />
         {children}
+        <Analytics />
       </body>
     </html>
   );
