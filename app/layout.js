@@ -18,6 +18,7 @@ export const metadata = {
     "places to stay in Sohra",
     "one bedroom homestay Sohra",
     "accommodation in Cherrapunji",
+    "in his time homestay",
   ],
   alternates: { canonical: "/" },
   openGraph: {
