@@ -5,7 +5,7 @@ const siteUrl = "https://in-his-time-homestay.vercel.app";
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "In His Time | Homestay in Sohra, Meghalaya",
+    default: "IN HIS TIME HOMESTAY | SOHRA, MEGHALAYA",
     template: "%s | In His Time",
   },
   description:
