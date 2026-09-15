@@ -16,8 +16,8 @@ const siteUrl = process.env.NEXT_SITE_URL || "https://inhistime.example.com";
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "LodgingBusiness",
-  name: "In His Time",
+  "@type": "WebSite",
+  name: "In His Time Homestay",
   description:
     "Private one-bedroom homestay in Sohra, Meghalaya near the landscapes and waterfalls of Cherrapunji.",
   url: siteUrl,
