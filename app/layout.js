@@ -21,7 +21,7 @@ export const metadata = {
   ],
   alternates: { canonical: "/" },
   openGraph: {
-    title: "In His Time | Homestay in Sohra, Meghalaya",
+    title: "IN HIS TIME HOMESTAY BOOKING | SOHRA, MEGHALAYA",
     description:
       "A peaceful one-bedroom homestay in Sohra, Meghalaya. Stay close to the landscapes and waterfalls of Cherrapunji.",
     url: siteUrl,
